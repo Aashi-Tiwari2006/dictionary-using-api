@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Women Support Platform</title>
+    <link rel="stylesheet" href="safetyTalk.css">
+</head>
+
+<body>
+
+    <div class="container" id="registerPage">
+        <h2>Register</h2>
+        <input type="text" id="username" placeholder="Enter your name">
+        <button onclick="registerUser()">Enter Platform</button>
+    </div>
+
+    <div class="container" id="postPage" style="display:none;">
+        <h2>Share Your Experience</h2>
+
+        <textarea id="postText" placeholder="Write your experience..."></textarea>
+        <button onclick="addPost()">Post</button>
+
+        <h3>Community Posts</h3>
+        <div id="posts"></div>
+    </div>
+
+    <script src="safetyTalk.js"></script>
+</body>
+
+</html>
